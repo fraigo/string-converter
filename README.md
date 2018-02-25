@@ -2,23 +2,23 @@
 
 Easily convert strings in your code with functions like camelCase, toUpper, replace, and many more.
 
-![Alt text](images/demo.gif?raw=true "Demo Gif")
+![Demo Gif](images/demo.gif?raw=true "Demo Gif")
 
 ## Features
 
 The following string functions (powered by lodash) are implimented in this extension:
 
-1.  camelCase
-2.  capitalize
-3.  constantCase
-4.  deburr
-5.  dotCase
-6.  escape
-7.  escapeRegExp
-8.  kebabCase
-9.  lowerCase
-10. lowerFirst
-11. pad
+1.  camelCase ( Example_TEXT => `exampleText` )
+2.  capitalize ( Example_TEXT => `Example_text` )
+3.  constantCase ( Example_TEXT => `EXAMPLE_TEXT` )
+4.  deburr ( Examplé_TEXT => `Example_TEXT` )
+5.  dotCase ( Example_TEXT => `example.text` )
+6.  escape ( <Example&Text> => `&lt;Example&amp;text&gt;` )
+7.  escapeRegExp ( [text](https://host.com/) => `\[text\]\(https://host\.com/\` ) 
+8.  kebabCase ( Example_TEXT => `example-text` )
+9.  lowerCase ( Example_TEXT => `example_text` )
+10. lowerFirst ( EXAMPLE_Text => `eXAMPLE_Text` )
+11. pad ( Example_TEXT with length 20 and character `_` => `____Example_TEXT____` )
 12. padEnd
 13. padStart
 14. parseInt
